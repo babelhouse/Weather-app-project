@@ -1,0 +1,60 @@
+h1,h2,h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-weight:lighter;
+    text-align: left;
+}
+
+h3{
+    font-size: smaller;
+}
+
+form{
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    
+}
+
+ul{
+    display:flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-weight: lighter;
+    font-size: medium;
+    list-style: none;
+
+}
+
+#main-area{
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+#secondary-area{
+background-color: #ffff;
+}
+
+#current-location-button{
+    display: block;
+    margin: 0 auto;
+   text-align: right;
+   
+}
+.degree{
+    display: block;
+    margin: 0 auto;
+    padding:20px;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.center-temp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    text-align: center;
+}
+
+.temperature{
+    font-size: larger;
+}
