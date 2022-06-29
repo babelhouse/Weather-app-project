@@ -28,6 +28,8 @@ ul{
 
 #main-area{
     background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    display: flex;
+    margin-right: auto;
 }
 
 #secondary-area{
