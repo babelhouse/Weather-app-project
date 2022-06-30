@@ -25,7 +25,14 @@ ul{
     list-style: none;
 
 }
-
+.container{
+    display: block;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 #main-area{
     background: linear-gradient(to top, #dfe9f3 0%, white 100%);
    
