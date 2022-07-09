@@ -38,7 +38,7 @@ function displayTempreture(response) {
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
-iconElement.setAttribute ("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`)
+iconElement.setAttribute ("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`)
 }
 
 
@@ -46,7 +46,7 @@ iconElement.setAttribute ("src", `http://openweathermap.org/img/wn/${response.da
   let apiKey = "5aac6d0188c6f17d6d2bbe6591b6fef0";
   let city = "Paris";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
- 
+  console.log (apiUrl)
   axios.get(apiUrl).then(displayTempreture);
 
 
