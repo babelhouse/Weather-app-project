@@ -1,68 +1,108 @@
-h1,h2,h3{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;
-    font-weight:lighter;
-    text-align: left;
-}
-
-h3{
-    font-size: smaller;
-}
-
-form{
-    text-align: center;
-    padding-top: 20px;
-    margin: 0 auto;
-    
-}
-
-ul{
-    display:flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;
-    font-weight: lighter;
-    font-size: medium;
-    list-style: none;
-
-}
-.container{
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(
+      circle at 10% 20%,
+      rgb(242, 235, 243) 0%,
+      rgb(234, 241, 249) 90.1%
+    );
+  }
+  
+  h1 {
+    color: #878787;
     display: block;
+    font-size: 30px;
+    font-weight: 100;
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 9;
+    text-transform: capitalize;
+    color: #878787;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+  }
+  
+  .App {
+    max-width: 600px;
+    margin: 200px auto;
+  }
+  
+  .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
-#main-area{
-    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
-   
-}
-
-#secondary-area{
-background-color: #ffff;
-}
-
-#current-location-button{
-    display: block;
-    margin: 0 auto;
-   text-align: right;
-   
-}
-.degree{
-    display: block;
-    margin: 0 auto;
-    padding:20px;
-    padding-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-.center-temp{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;
-    text-align: center;
-}
-
-.temperature{
-    font-size: larger;
-}
+  }
+  
+  .degree {
+    font-size: 60px;
+  }
+  .unit {
+    font-weight: 400;
+    position: relative;
+    line-height: 1;
+    top: -34px;
+  }
+  .weather {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+    padding: 40px;
+    color: #878787;
+  }
+  
+  .weather form {
+    margin-top: 15px;
+    border-bottom: 1px solid #f9f7fe;
+    padding-bottom: 30px;
+  }
+  
+  .weather .search-input {
+    margin-bottom: 10px;
+    background: #f9f7fe;
+    border: none;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 6px;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    height: 50px;
+    line-height: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    font-weight: 400;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .btn {
+    background: #38598b;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 0;
+    border: none;
+    height: 50px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .w-100 {
+    width: 100%;
+  }
