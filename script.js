@@ -52,7 +52,7 @@ function search(city){
 function manageSubmit(event){
   event.preventDefault();
   let CityElement = document.querySelector("#find-city")
-  search(CityElement)
+  search(CityElement.value)
 }
 
 
