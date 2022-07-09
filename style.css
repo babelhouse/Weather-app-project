@@ -84,7 +84,7 @@ body {
   }
   .float-left{
     position: relative;
-    top: -30
+    margin-bottom: 15;
   }
   .form-control {
     width: 100%;
