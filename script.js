@@ -51,8 +51,8 @@ function search(city){
 
 function manageSubmit(event){
   event.preventDefault();
-  let searchCityElement = document.querySelector("#search-city")
-  search(searchCityElement)
+  let CityElement = document.querySelector("#find-city")
+  search(CityElement)
 }
 
 
