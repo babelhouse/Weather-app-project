@@ -21,30 +21,32 @@ function formatDate(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
-function displayTempreture(response) {
-  document.querySelector("#temperature").innerHTML = Math.round(
-    response.data.main.temp
-  );
-  document.querySelector("#city").innerHTML = response.data.name;
-  document.querySelector("#description").innerHTML =
-    response.data.weather[0].description;
-  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
-  document.querySelector("#wind").innerHTML = Math.round(
-    response.data.wind.speed
-  );
-  document.querySelector("#date").innerHTML = formatDate(
-    response.data.dt * 1000
-  );
+function displayTempreture(response) { 
+
+  let temperatureElement =  document.querySelector("#temperature")
+  let cityElement =document.querySelector("#city")
+  let desciptionElement = document.querySelector("#description")
+  let humidityElement = document.querySelector("#humidity")
+  let windElement =document.querySelector("#wind")
+  let dateElement =document.querySelector("#date")
+  let iconElement = document.querySelector("#icon")
+
+
+  temperatureElement.innerHTML = Math.round(response.data.main.temp);
+  cityElement.innerHTML = response.data.name;
+  desciptionElement.innerHTML =response.data.weather[0].description;
+  humidityElement.innerHTML = response.data.main.humidity;
+  windElement.innerHTML = Math.round(response.data.wind.speed);
+  dateElement.innerHTML = formatDate(response.data.dt * 1000);
+iconElement.setAttribute ("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`)
 }
 
-function search(event) {
-  event.preventDefault();
 
-  let apiKey = "bd1307acae2205d5435c11972f7bde51";
-  let city = document.querySelector("#search-text").value;
+
+  let apiKey = "5aac6d0188c6f17d6d2bbe6591b6fef0";
+  let city = "Paris";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-
+ 
   axios.get(apiUrl).then(displayTempreture);
-}
 
-let form = document.querySelector("#search-form");
+
