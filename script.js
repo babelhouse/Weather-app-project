@@ -46,7 +46,6 @@ iconElement.setAttribute ("src", `https://openweathermap.org/img/wn/${response.d
   let apiKey = "5aac6d0188c6f17d6d2bbe6591b6fef0";
   let city = "Paris";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-  console.log (apiUrl)
   axios.get(apiUrl).then(displayTempreture);
 
 
