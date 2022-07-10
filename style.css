@@ -50,12 +50,14 @@ body {
   .degree {
     font-size: 60px;
   }
+  .active{
+    text-decoration:none ;
+  }
   .unit {
     font-weight: 400;
     position: relative;
     line-height: 1;
     top: -34px;
-    text-decoration:none ;
   
   }
   .weather {
