@@ -55,6 +55,7 @@ body {
     position: relative;
     line-height: 1;
     top: -34px;
+    text-decoration: none ;
   }
   .weather {
     background: #fff;
