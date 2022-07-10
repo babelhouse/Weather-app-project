@@ -55,7 +55,7 @@ body {
     position: relative;
     line-height: 1;
     top: -34px;
-    text-decoration: none ;
+    text-decoration:none ;
   }
   .weather {
     background: #fff;
@@ -83,9 +83,7 @@ body {
     height: 50px;
     line-height: 20px;
   }
-   .weather .active{
-    text-decoration: none;
-   }
+ 
   .float-left{
     position: relative;
     margin-bottom: 15;
@@ -114,6 +112,3 @@ body {
     width: 100%;
   }
 
-  .weather .code-link{
-    text-decoration: none;
-  }
