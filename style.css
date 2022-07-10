@@ -83,6 +83,9 @@ body {
     height: 50px;
     line-height: 20px;
   }
+   .weather .active{
+    text-decoration: none;
+   }
   .float-left{
     position: relative;
     margin-bottom: 15;
@@ -111,6 +114,6 @@ body {
     width: 100%;
   }
 
-  #code-link{
+  .weather .code-link{
     text-decoration: none;
   }
