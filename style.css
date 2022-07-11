@@ -90,10 +90,7 @@ body {
     line-height: 20px;
   }
  
-  .float-left{
-    position: relative;
-    margin-bottom: 15;
-  }
+  
   .form-control {
     width: 100%;
     font-weight: 400;
