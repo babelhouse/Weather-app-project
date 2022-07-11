@@ -63,6 +63,10 @@ body {
     color:#878787;
   
   }
+
+  #fahrenheit-link{
+    text-decoration: none;
+  }
   .weather {
     background: #fff;
     border-radius: 16px;
@@ -90,7 +94,6 @@ body {
     line-height: 20px;
   }
  
-  
   .form-control {
     width: 100%;
     font-weight: 400;
