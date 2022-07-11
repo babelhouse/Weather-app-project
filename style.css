@@ -61,7 +61,6 @@ body {
     line-height: 1;
     top: -34px;
     color:#878787;
-  
   }
 
   #fahrenheit-link{
@@ -70,7 +69,7 @@ body {
   .weather {
     background: #fff;
     border-radius: 16px;
-    box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+    box-shadow: 0 30px 50px rgb(65 50 100 / 10%);
     padding: 40px;
     color: #38598b;
   }
