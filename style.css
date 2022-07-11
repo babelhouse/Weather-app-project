@@ -116,7 +116,7 @@ body {
   .location{
     color: #EC6E4C;
     font-family: Arial, Helvetica, sans-serif;
-    
+    text-align: center;
   }
   .code-link{
     text-decoration: none;
