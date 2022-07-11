@@ -53,6 +53,7 @@ body {
   .active{
     text-decoration:none ;
     color: #878787;
+    cursor: default;
   }
   .unit {
     font-weight: 400;
