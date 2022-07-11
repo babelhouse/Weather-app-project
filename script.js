@@ -100,6 +100,15 @@ function search(city){
 }
 
 
+function locationWeather(event) {
+  event.preventDefault();
+  navigator.geolocation.getCurrentPosition(searchLocation);
+}
+
+let currentLocation = document.querySelector("#current-location");
+currentLocation.addEventListener("click", locationWeather);
+
+
 function manageSubmit(event){
   event.preventDefault();
   let cityElement = document.querySelector("#find-city")
