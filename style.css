@@ -52,12 +52,14 @@ body {
   }
   .active{
     text-decoration:none ;
+    color: #878787;
   }
   .unit {
     font-weight: 400;
     position: relative;
     line-height: 1;
     top: -34px;
+    color:#878787;
   
   }
   .weather {
