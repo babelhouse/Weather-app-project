@@ -99,6 +99,13 @@ function search(city){
   axios.get(apiUrl).then(displayTempreture);
 }
 
+function searchLocation(position) {
+  let apiKey = "5aac6d0188c6f17d6d2bbe6591b6fef0";
+  let lat = position.coords.latitude;
+  let lon = position.coords.longitude;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+  axios.get(apiUrl).then(searchLocation);
+}
 
 function locationWeather(event) {
   event.preventDefault();
