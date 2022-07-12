@@ -114,7 +114,8 @@ body {
   }
 
 
-  .location{
+  .location :hover {
+    border: none;
     color: #EC6E4C;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
