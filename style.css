@@ -116,6 +116,8 @@ body {
 
    .btn-link{
     color: #EC6E4C;
+    background-color: #fff;
+    outline: #fff;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     text-decoration: none;
