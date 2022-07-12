@@ -116,9 +116,10 @@ body {
   .location {
   background: #f9f7fe;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 15px 0;
   border: none;
   height: 50px; 
-  text-decoration-color: #38598b;
 
   }
  
