@@ -99,7 +99,7 @@ body {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
   
-   .btn{
+   .btn-primary{
     background: #38598b;
     font-weight: 700;
     font-size: 16px;
@@ -114,10 +114,11 @@ body {
   }
 
 
-  .location{
+  .location .btn-link{
     color: #EC6E4C;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    text-decoration: none;
     cursor: pointer;
   }
 
