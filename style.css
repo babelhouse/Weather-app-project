@@ -113,7 +113,15 @@ body {
       border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
 
-
+.button{
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background-color: #38598b;
+  border: none;
+  outline: none;
+  opacity: 10%;
+}
  
 
  
