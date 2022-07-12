@@ -114,9 +114,8 @@ body {
   }
 
   .location {
-    background: #38598b;
-    font-weight: 700;
-    font-size: 16px;
+    background: whitesmoke;
+    font-size: larger;
     padding: 15px 0;
     border: none;
     height: 50px;
