@@ -118,6 +118,7 @@ body {
     color: #EC6E4C;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin: 0 auto;
     text-decoration: none;
     cursor: pointer;
   }
