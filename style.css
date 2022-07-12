@@ -99,7 +99,7 @@ body {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
   
-  .btn{
+  .push-me{
     background: #38598b;
     font-weight: 700;
     font-size: 16px;
@@ -114,7 +114,7 @@ body {
   }
 
 
-   .btn-link .location{
+  .location{
     color: #EC6E4C;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
