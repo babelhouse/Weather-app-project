@@ -115,9 +115,11 @@ body {
 
   .location {
   background: #f9f7fe;
+  font-family: Arial, Helvetica, sans-serif;
   border: none;
   height: 50px; 
-  margin-right: 30px;
+  text-decoration-color: #38598b;
+
   }
  
   .code-link{
