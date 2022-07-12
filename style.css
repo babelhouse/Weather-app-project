@@ -99,7 +99,7 @@ body {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
   
-   .btn-primary{
+   .btn{
     background: #38598b;
     font-weight: 700;
     font-size: 16px;
@@ -114,7 +114,6 @@ body {
   }
 
 
-
   .location{
     color: #EC6E4C;
     font-family: Arial, Helvetica, sans-serif;
@@ -122,9 +121,7 @@ body {
     cursor: pointer;
   }
 
-  .location-icon{
-    font-size: large;
-  }
+ 
   .code-link{
     text-decoration: none;
   }
