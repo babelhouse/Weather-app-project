@@ -99,7 +99,7 @@ body {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
   
-   .search-form .btn-primary{
+  .btn{
     background: #38598b;
     font-weight: 700;
     font-size: 16px;
