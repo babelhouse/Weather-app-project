@@ -99,7 +99,7 @@ body {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
   
-   .btn-primary {
+   .btn-primary{
     background: #38598b;
     font-weight: 700;
     font-size: 16px;
@@ -113,7 +113,7 @@ body {
       border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
 
-  
+
 
   .location{
     color: #EC6E4C;
